@@ -38,7 +38,6 @@ def sig_exit(sig, f):
     pworker.sig_exit_handler()
     sys.exit(0)
 
-if args.l: pworker.packetlog = args.l
 if args.wait: pworker.wait_for(args.wait)
 if args.connect: pworker.connect_to(args.connect)
 if args.v: pworker.debug = True
