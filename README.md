@@ -38,7 +38,7 @@ On second client
 
  ./p2ptool.py --myid second-client-id -p 8001 --wait first-client-id helper-server-ip
 
-When UDP hole was panched all client will finish:
+When UDP hole was panched all clients will finish:
 - first client will return: id, client address, client port, your src port
 - second client will return: id, own local address, own src port
 
