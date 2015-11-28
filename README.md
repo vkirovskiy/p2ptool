@@ -14,7 +14,7 @@ udphepler.lua must runs on server with real IP but clients do not require it and
 can run behind firewall with NAT.
 
 # Usage
-
+'''
 usage: p2ptool.py [-h] [--myid MYID] [-p P] [--connect CONNECT] [--wait WAIT]
                   [-v]
                   server
@@ -29,7 +29,7 @@ usage: p2ptool.py [-h] [--myid MYID] [-p P] [--connect CONNECT] [--wait WAIT]
    --connect id       auto connect to
    --wait id          wait client and exit
    -v                 verbose mode
-
+'''
 On first client
 
  ./p2ptool.py --myid first-client-id -p 8001 --connect second-client-id helper-server-ip
